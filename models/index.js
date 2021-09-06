@@ -15,6 +15,10 @@ Comment.belongsTo(Project, {
   foreignKey: 'project_id'
 })
 
+Comment.belongsTo(User, {
+  foreignKey: 'user_id'
+})
+
 Project.hasMany(Comment, {
   foreignKey: 'project_id'
 })
