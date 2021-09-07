@@ -8,7 +8,8 @@ User.hasMany(Project, {
 });
 
 User.hasMany(Comment, {
-  foreignKey: 'user_id'
+  foreignKey: 'user_id',
+  onDelete: 'CASCADE'
 })
 
 Project.belongsTo(User, {
@@ -24,7 +25,9 @@ Comment.belongsTo(User, {
 })
 
 Project.hasMany(Comment, {
-  foreignKey: 'project_id'
+  foreignKey: 'project_id',
+  onDelete: 'CASCADE'
+
 })
 
 module.exports = { User, Project, Comment };
