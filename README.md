@@ -5,7 +5,7 @@
     
 This app is  a simple forum where users can login to their profile, make posts, and comment under their profile name. In the main feed you can see other posts by other users. If you click on a post it will take you to the pst page where you can leave a comment.
 
-Follow the link to the deployed app! ----> https://mvc-openblog.herokuapp.com/
+Follow the link to the deployed app! ----> https://open-tech-blog.herokuapp.com/
 
     
     
